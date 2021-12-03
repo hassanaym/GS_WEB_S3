@@ -1,8 +1,8 @@
 <?php
     require_once('ProduitClass.php');
 
-    $cnt = new Produit();
-    $lst = $cnt->getAll(); //Array
+    $prd = new Produit();
+    $lst = $prd->getAll(); //Array
 ?>
 
 <!DOCTYPE html>
@@ -32,16 +32,16 @@
         </thead>
         <tbody>
             <?php
-                foreach ($lst as $c)  {
+                foreach ($lst as $p)  {
                     echo "<tr>";
-                        echo "<td>" . $c->reference . "</td>";
-                        echo "<td>" . $c->libelle . "</td>";
-                        echo "<td>" . $c->quantite_stock . "</td>";
-                        echo "<td>" . $c->prix_achat . "</td>";
-                        echo "<td>" . $c->prix_unitaire. "</td>";
-                        echo "<td>" . $c->prix_vente . "</td>";
-                        echo "<td><a href="."deleteProduit.php/?ref=" . $c->reference . "><i class='fas fa-folder-minus'></i></a></td>";
-                        echo "<td><a href="."updateForm.php/?ref=" . $c->reference . "><i class='fas fa-edit'></i></a></td>";
+                        echo "<td>" . $p->reference . "</td>";
+                        echo "<td>" . $p->libelle . "</td>";
+                        echo "<td>" . $p->quantite_stock . "</td>";
+                        echo "<td>" . $p->prix_achat . "</td>";
+                        echo "<td>" . $p->prix_unitaire. "</td>";
+                        echo "<td>" . $p->prix_vente . "</td>";
+                        echo "<td><a href="."deleteProduit.php/?ref=" . $p->reference . "><i class='fas fa-folder-minus'></i></a></td>";
+                        echo "<td><a href="."updateForm.php/?ref=" . $p->reference . "><i class='fas fa-edit'></i></a></td>";
                         //echo "<td><a href="."updateForm.php/?email=" . $c->reference . "><i class='fas fa-reply'></i></a></td>";
                     echo "</tr>";
                 }

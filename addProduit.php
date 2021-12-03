@@ -23,7 +23,7 @@
 
         <div class="data-input-side">
             <form action="saveProduit.php" method="POST">
-                <input type="text" class="input-border" name="reference" id="reference" placeholder="Référence">
+                <input type="text" class="input-border" name="reference" id="reference" placeholder="Référence" required>
                 <textarea  class="input-border" name="libelle" id="libelle" placeholder="Libellé" rows="5"></textarea >
                 <input type="number" step="any" class="input-border" name="quantite-stock" id="quantite-stock" placeholder="Quantité en stock">
                 <input type="number" step="any" class="input-border" name="prix-achat" id="prix-achat" placeholder="Prix d'achat">

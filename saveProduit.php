@@ -12,7 +12,7 @@
         $prd->setPrixVente($_POST['prix-vente']); //Appel du setter du email
 
         $prd->save(); //Appel de la methode save
-        header('Location: index.php');    
+        header('Location: listProduit.php');    
     }
 
 ?>

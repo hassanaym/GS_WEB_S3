@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{8140B616-D7AD-4675-89D3-D95132E304D9}" Name="MCD_GESTION_STOCK" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="MCD_GESTION_STOCK.mcd"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>
