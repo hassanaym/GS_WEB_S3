@@ -1,0 +1,139 @@
+/*
+background color: #eff1f4
+main color: #89c152
+borders and icons color: #919496
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f0fff3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#login-card {
+  background-color: #ffffff;
+  height: 380px;
+  width: 400px;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#login-card h1 {
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: capitalize;
+  height: 70px;
+  /*text-align: center;*/
+  line-height: 80px;
+  padding-left: 40px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 15px auto;
+}
+
+label {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.input-group input {
+  height: 35px;
+  border-radius: 50px;
+  border: 1px solid #919496;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.merge-input-icon {
+  display: flex;
+  position: relative;
+}
+
+.merge-input-icon i {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: #919496;
+  cursor: pointer;
+}
+
+.merge-input-icon i:hover {
+  color: #ffb423;
+}
+
+/*Start error alert*/
+.error-alert {
+  text-align: center;
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+/*End error alert*/
+
+.login-button {
+  height: 30px;
+  width: 80%;
+  margin: 25px auto;
+}
+
+.login-button input {
+  background-color: #ffb423;
+  color: #ffffff;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 50px;
+  height: 35px;
+  width: 100%;
+  box-shadow: 3px 4px 5px 0px rgba(46, 61, 73, 0.15);
+  cursor: pointer;
+}
+
+.login-button input:hover {
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+}
+
+.login-button input:active {
+  box-shadow: 6px 7px 10px 0px rgba(46, 61, 73, 0.15);
+}
+
+.create-account {
+  display: flex;
+  justify-content: center;
+}
+
+.create-account p {
+  color: #919496;
+  font-size: 12px;
+  margin-right: 12px;
+}
+
+.create-account a {
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 12px;
+  text-transform: capitalize;
+}
